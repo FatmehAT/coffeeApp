@@ -14,23 +14,18 @@ class _CoffeeShopState extends State<CoffeeShop> {
   List<Coffee> coffeeItems = [
     Coffee(
       name: 'American',
-      description: 'Black coffee from Colombian coffee beans.',
       price: 4,
     ),
     Coffee(
       name: 'Espresso',
-      description: 'A shot of strong black coffee.',
       price: 2,
     ),
     Coffee(
       name: 'Latte',
-      description:
-          'Coffee with steamed milk and foam in addition to a shot of vanilla.',
       price: 5,
     ),
     Coffee(
       name: 'Mocha',
-      description: 'Coffee with steamed milk.',
       price: 5,
     ),
   ];
