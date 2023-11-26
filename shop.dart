@@ -11,7 +11,7 @@ class Shop extends StatefulWidget {
 }
 
 class _ShopState extends State<Shop> {
-  Coffee coffee = Coffee(name: '', description: '', price: 0.0);
+  Coffee coffee = Coffee(name: '', price: 0.0);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,7 +24,6 @@ class _ShopState extends State<Shop> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(height: 16),
-            Text('Description: ${coffee.description}'),
             SizedBox(height: 8),
             Text('Price: \$${coffee.price.toStringAsFixed(2)}'),
           ],
